@@ -1,0 +1,214 @@
+<!DOCTYPE HTML> 	<!--Define que o documento é HTML-->
+
+
+<html>		<!--Essa tag marca o inicio do documento HTML-->
+	<head>		<!--Essa tag contém informações sobre o documento, como títulos, links para CSS, scripts, entre outros-->
+		<title>Miniport by HTML5 UP</title>	<!-- Definindo o título da página, que aparece na aba do navegador ou na barra de título.-->
+		<meta charset="utf-8" />	<!--Define o conjunto de caracteres usados no documento-->
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />	<!--Configura a viewport para que a página seja exibida corretamente em dispositivos móveis.-->
+		<link rel="stylesheet" href="assets/css/main.css" />	<!--Importa um arquivo CSS externo para estilizar a página-->
+	</head>
+
+	<body class="is-preload"> <!--A tag "body" define o corpo do documento, onde todo o conteudo visivel da pagina é colocado-->
+
+		<!-- Nav -->
+			<nav id="nav">	<!--A tag "nav"esta defindo uma seção de navegação no documento. Contendo links para outras páginas ou partes da mesma página, como menus, índices ou barras de navegação.-->
+				<ul class="container">	<!--A tag "ul" é utilizada para iniciar uma lista não ordenada, dentro da tag, os itens da lista são marcados com a tag "li", é usada para criar menus, lista de itens.-->
+					<li><a href="#top">Top</a></li>
+					<li><a href="#work">Work</a></li>
+					<li><a href="#portfolio">Portfolio</a></li>
+					<li><a href="#contact">Contact</a></li>
+				</ul>
+			</nav>
+
+		<!-- Home -->
+			<article id="top" class="wrapper style1">	<!--A tag "article", define um conteúdo independente e autossuficiente, como uma postagem de blog. Está sendo utilizada para estruturar partes do documento que fazem sentido por si só-->
+				<div class="container"> <!--A tag "div" cria uma divisão no documento, sendo usada aqui para agrupar e organizar o conteúdo, ja a "class" esta adicionando uma classe CSS chamada "container", que esta aplicando um estilo especifico-->
+					<div class="row">	<!-- Está criando uma divisão e a "class" esta utilizando a classe "row" para criar uma linha para organizar o contéudo-->
+						<div class="col-4 col-5-large col-12-medium"> <!--Criando uma divisão com "div" e a "class" esta definindo um bloco de conteúdo que ocupa diferentes tamanhos do dispositivo, "col-4": ocupa 4 blocos de uma grade; "col-5-large": ocupa 5 blocos de grade; "col-12-medium": ocupa 12 partes da grade-->
+							<span class="image fit"><img src="images/foto.jpg" alt="" width="300" height="400" /></span>	<!--A tag "span" é utlizado para agrupar elementos, ja na "class", é utilizado um framework de CSS, que tem o intuito de uma imagem se ajustar automaticamente ao tamanho do espaço. A tag "img" é usada para importar uma imagem, o "src" define o caminho da imagem na maquina, e o "alt" é um texto alternativo que descreve a imagem-->
+						</div>
+						<div class="col-8 col-7-large col-12-medium">	<!--Criando uma divisão com "div" e a "class" esta definindo um bloco de conteúdo que ocupa diferentes tamanhos do dispositivo, "col-8": ocupa 8 blocos de uma grade; "col-7-large": ocupa 7 blocos de grade; "col-12-medium": ocupa 12 partes da grade-->
+							<header>	<!--É o inicio de um cabeçalho na página, sendo utilizado para agrupar conteudos introdutorios-->
+								<h1>Olá, meu nome é <strong>João Victor</strong>.</h1>	<!--A tag "h1" é utilizada para o titulo principal, a tag "strong" esta sendo utilizada para deixar o texto "Jane Doe" em negrito-->
+							</header>
+							<p>e essa pagina é minha <strong>alteração</strong> no Miniport distribuido.</p>
+							<!--A Tag "p" esta definindo um paragrafo de texto, a "strong" esta deixando a palavra "alteração" em negrito, e a "a href" esta criando um link-->
+
+							<a href="#work" class="button large scrolly">Leia mais sobre mim</a>	<!--A tag "a" Define um link clicavel, o "href" é uma ancora que leva o usuario para uma seção da pagina com o ID "work", a "class" esta aplicando estilos para se parecer com um botão-->
+						</div>
+					</div>
+				</div>
+			</article>
+
+		<!-- Work -->
+			<article id="work" class="wrapper style2"> <!--A tag "article" esta definindo uma seção de conteudo independente,o "id" é um identificador unico (work), e a "class" esta aplicando um estilo de nomenclatura "wrapper style 2" para centralizar ou limitar a largura da imagem-->
+				<div class="container">
+					<header>
+						<h2>Aqui estão todas as coisas que eu faço..</h2> <!--A tag "h2", esta sendo utilizada para definir um subtitulo-->
+						<p>Se você não correr riscos, você não pode criar um futuro - Luffy.</p>	<!--Esta definindo um paragrafo de texto-->
+					</header>
+					<div class="row aln-center">	<!--A "class" esta definindo que o conteudo será organizado em uma linha-->
+						<div class="col-4 col-6-medium col-12-small">
+							<section class="box style1"> <!--A tag "section" esta definindo uma seção de conteudo,a "class" esta aplicando um estilo especifico a essa seção-->
+								<span class="icon featured fa-comments"></span>	<!--A tag "span" esta adicionando um icone a seção, a "class" esta estilizando o icone-->
+								<h3>Muito comunicativo</h3>	<!--A tag "h3" seria o terceiro nivel de subtitulo-->
+								<p>Tenho a facilidade de me entrosar com os meu colegas, e firmar uma bela parceria para atingirmos o objetivo</p>
+							</section>
+						</div>
+						<div class="col-4 col-6-medium col-12-small">
+							<section class="box style1">
+								<span class="icon solid featured fa-camera-retro"></span>
+								<h3>Memoria Fotografica</h3>
+								<p>Tenho facilidade em lembrar de assuntos e acontecimentos, sempre fui bom em jogos, e levo isso para a area profissional</p>
+							</section>
+						</div>
+						<div class="col-4 col-6-medium col-12-small">
+							<section class="box style1">
+								<span class="icon featured fa-thumbs-up"></span>
+								<h3>Muito Elogiado</h3>
+								<p>Todos os trabalhos que fiz, sempre fui elogiado e parabenizado pelo meu empenho</p>
+							</section>
+						</div>
+					</div>
+					<footer>	<!--A tag "footer" esta indicando o inicio do rodape da pagina-->
+						<p>Tolos que não respeitam o passado provavelmente o repetirão. - Robin.</p>
+						<a href="#portfolio" class="button large scrolly">Veja mais sobre o meu trabalho</a>
+					</footer>
+				</div>
+			</article>
+
+		<!-- Portfolio -->
+			<article id="portfolio" class="wrapper style3">
+				<div class="container">
+					<header>
+						<h2>Aqui estão algumas coisas que fiz recentemente.</h2>
+						<p>Conhecendo tanto a derrota quanto a vitória, andando por aí derramando lágrimas, é assim que você se torna um verdadeiro homem. -Shanks</p>
+					</header>
+					<div class="row">
+						<div class="col-4 col-6-medium col-12-small">
+							<article class="box style2">
+								<a href="#" class="image featured"><img src="images/pic01.jpg" alt="" /></a>	<!--A "class" esta aplicando um estilo especifico para a imagem-->
+								<h3><a href="#">Banco de Dados</a></h3>
+								<p>Projetos feitos em SQL</p>
+							</article>
+						</div>
+						<div class="col-4 col-6-medium col-12-small">
+							<article class="box style2">
+								<a href="#" class="image featured"><img src="images/pic02.jpg" alt="" /></a>
+								<h3><a href="#">Front-end</a></h3>
+								<p>Projetos feitos em HTML e CSS</p>
+							</article>
+						</div>
+						<div class="col-4 col-6-medium col-12-small">
+							<article class="box style2">
+								<a href="#" class="image featured"><img src="images/pic03.jpg" alt="" /></a>
+								<h3><a href="#">Back-end</a></h3>
+								<p>Projetos feitos em Python</p>
+							</article>
+						</div>
+						<div class="col-4 col-6-medium col-12-small">
+							<article class="box style2">
+								<a href="#" class="image featured"><img src="images/pic04.jpg" alt="" /></a>
+								<h3><a href="#">Design Grafico</a></h3>
+								<p>Projetos feito no Figma, Adobe XD</p>
+							</article>
+						</div>
+						<div class="col-4 col-6-medium col-12-small">
+							<article class="box style2">
+								<a href="#" class="image featured"><img src="images/pic05.jpg" alt="" /></a>
+								<h3><a href="#">Frameworks JavaScript</a></h3>
+								<p>Projetos usando React, Angular ou Vue.js</p>
+							</article>
+						</div>
+						<div class="col-4 col-6-medium col-12-small">
+							<article class="box style2">
+								<a href="#" class="image featured"><img src="images/pic06.jpg" alt="" /></a>
+								<h3><a href="#">Plataforma de E-commerce</a></h3>
+								<p>Tabelas para produtos, clientes, pedidos.</p>
+							</article>
+						</div>
+					</div>
+					<footer>
+						<p>Milagres só acontecem com as pessoas que não desistem. -Emporio Ivankov</p>
+						<a href="#contact" class="button large scrolly">Entre em contato comigo</a>
+					</footer>
+				</div>
+			</article>
+
+		<!-- Contact -->
+			<article id="contact" class="wrapper style4">
+				<div class="container medium">
+					<header>
+						<h2>Deixe-me fazer coisas para você.</h2>
+						<p>Prometo ser bastante útil :)</p>
+					</header>
+					<div class="row">
+						<div class="col-12">
+							<form method="post" action="#">	<!--A tag "form" esta definindo o inicio de um formulario, o "method" indica como os dados serão enviados, o "post" envia os dados de forma segura-->
+								<div class="row">
+									<div class="col-6 col-12-small">
+										<input type="text" name="name" id="name" placeholder="Nome" />
+									</div>
+									<div class="col-6 col-12-small">
+										<input type="text" name="email" id="email" placeholder="Email" />
+									</div>
+									<div class="col-12">
+										<input type="text" name="subject" id="subject" placeholder="Assunto" />
+									</div>
+									<div class="col-12">
+										<textarea name="message" id="message" placeholder="Mensagem"></textarea>
+									</div>
+									<div class="col-12">
+										<ul class="actions">	<!--A classe "actions" esta estilizando os botões para que fiquem alinhados e com aparencia consistente-->
+											<li><input type="submit" value="Enviar Mensagem" /></li>	<!--Esta criando um botão de enviar "submit", que quando clicado ele envia os dados do formulario para o local definido no atributo "action"-->
+											<li><input type="reset" value="Limpar" class="alt" /></li>	<!--Esta criando um botão do tipo "reset", que quando clicado, ele limpa todos os campos do formulario-->
+										</ul>
+									</div>
+								</div>
+							</form>
+						</div>
+						<div class="col-12">
+							<hr />
+							<h3>Encontre-me em ...</h3>
+							<ul class="social">
+								<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+								<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
+								<li><a href="#" class="icon brands fa-dribbble"><span class="label">Dribbble</span></a></li>
+								<li><a href="#" class="icon brands fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
+								<li><a href="#" class="icon brands fa-tumblr"><span class="label">Tumblr</span></a></li>
+								<li><a href="#" class="icon brands fa-google-plus"><span class="label">Google+</span></a></li>
+								<li><a href="#" class="icon brands fa-github"><span class="label">Github</span></a></li>
+								<!--
+								<li><a href="#" class="icon solid fa-rss"><span>RSS</span></a></li>
+								<li><a href="#" class="icon brands fa-instagram"><span>Instagram</span></a></li>
+								<li><a href="#" class="icon brands fa-foursquare"><span>Foursquare</span></a></li>
+								<li><a href="#" class="icon brands fa-skype"><span>Skype</span></a></li>
+								<li><a href="#" class="icon brands fa-soundcloud"><span>Soundcloud</span></a></li>
+								<li><a href="#" class="icon brands fa-youtube"><span>YouTube</span></a></li>
+								<li><a href="#" class="icon brands fa-blogger"><span>Blogger</span></a></li>
+								<li><a href="#" class="icon brands fa-flickr"><span>Flickr</span></a></li>
+								<li><a href="#" class="icon brands fa-vimeo"><span>Vimeo</span></a></li>
+								-->
+							</ul>
+							<hr />
+						</div>
+					</div>
+					<footer>
+						<ul id="copyright">
+							<li>&copy; Untitled. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>	<!--Esta linha esta sendo usada para mostrar os direitos autorais, "&copy" é o codigo para o simbolo de direitos autorais-->
+						</ul>
+					</footer>
+				</div>
+			</article>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
